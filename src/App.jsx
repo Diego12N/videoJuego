@@ -58,7 +58,7 @@ function App() {
 			setWinner(newWinner);
 		} else if (checkEndGame(newBoard)) {
 			setWinner(false);
-		}
+		} //
 	};
 
 	return (
